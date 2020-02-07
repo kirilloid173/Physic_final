@@ -1,0 +1,15 @@
+   img{
+       padding: 1.5%;
+   }
+    
+    p{
+        font-size: 32px;
+        font-weight: bold;
+        padding: 0.2%;
+    }
+.center{
+    text-align: center;
+}
+html{
+    color: black;
+}

@@ -1,0 +1,108 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Main page</title>
+</head>
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.1/dist/js/uikit-icons.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</style>
+<body>
+    <!-- form for button -->
+    <form action="result.php" method="POST">
+    <script type="text/javascript">
+    console.log("Все ответы находятся в файле Answers.txt");
+    </script>
+    <p class="center">Добро пожаловать на вступительный квест по физике</p>
+
+    <p class="center">Ребусы</p>
+    <p class="center">Напишите справа от картинки(ребуса) правильный ответ, (поле не является регистрозависимым)</p>
+    <img src="gradus.png" alt="Don`t loading">
+    <input type="text" placeholder="Ответ" name="gradus" required>
+    <div></div>
+<img src="generator.png" alt="Don`t loading">
+<input type="text" placeholder="Ответ" name="generator" required>
+<div></div>
+<img src="resonans.png" alt="Don`t loading">
+<input type="text" placeholder="Ответ" name="resonans" required>
+<div></div>
+<img src="kolebania.png" alt="Don`t loading" >
+<input type="text" placeholder="Ответ" name="kolebania" required>
+<div></div>
+<p class="center">Загадки:Введите правильный ответ справа от загадки</p>
+<p class="centr">
+    1. Две сестры качались, правды добивались, а когда добились, то остановились.  <!-- Весы -->
+<input type="text" placeholder="Ответ" name="weight" required>
+</p>
+<p>2. Без рук, без ног, под окном стучит, в дом просится. <input type="text" placeholder="Ответ" name="veter" required></p>
+<p>3. Под стеклом сижу, в одну сторону гляжу. <input type="text" placeholder="Ответ" name="kompas" required></p>
+<p>4. Живёт без тела, говорит без языка, никто его не видит, а всякий слышит. <input type="text" name="echo" placeholder="Ответ" required></p>
+<p class="center">Постарайтесь угадать по биографии физика-учёного</p>
+<p>1. Фамилия очень известного ученого.
+
+Он – один из первых ученых, работавших на войну, и первая жертва войны среди людей науки.
+
+Круг его научных интересов: математика, механика, оптика, астрономия.
+
+С одним из его открытий мы сталкиваемся почти каждую неделю.
+
+Он сказал: “Дайте мне точку опоры и я переверну Землю”.
+
+По легенде, ему принадлежит возглас “Эврика!”, прозвучавший вслед за сделанным им открытием. <input type="text" placeholder="Ответ" name="arhimet" required></p>
+<img src="Arhimet.png">
+<p>2. Фамилия очень известного ученого.
+
+Он жил в IV веке в Италии.
+
+Занимался физикой и астрономией. Изучал движение тел, открыл закон колебаний маятника, создал теорию простых механизмов.
+
+Создал первый телескоп (зрительную трубу) и наблюдал в него Луну и планеты, обнаружил спутники Юпитера, пятна на Солнце
+и фазы Венеры.
+
+Поддерживал и развивал гелиоцентрическую теорию Коперника, за что преследовался инквизицией. На суде ты публично отрёкся
+от своих взглядов.
+
+Его называют “отцом” экспериментальной физики, человеком, от которого берёт начало физика как наука.
+<input type="text" placeholder="Ответ" name="galiley" required></p>
+<img src="Galiley.png" alt="Don`t loading">
+<p>3. Фамилия очень известного ученого.
+
+Русский ученый, положивший начало разработке общепринятой научной и технической терминологии на русском языке.
+
+Он первым в России разработал способ получения цветных стекол вместе со своим учениками создал из этих стекол панораму
+“Полтавская битва”.
+
+Он ввел в русский язык слово “физика”.
+
+Первый русский академик.
+
+О нем А.С. Пушкин писал: “Он создал первый русский университет Он, лучше сказать, сам был первым нашим университетом.”.
+<input type="text" placeholder="Ответ" name="lomonosov" required></p><img src="Lomonosov.png" alt="Don`t loading">
+<p class="center">Математические-физические задачи (Решение не писать только ответ)</p>
+<p>На соревнованиях по бегу один из участников на заданной дистанции достиг скорости 9 м/с. С какой скоростью выбрасывал он
+при беге ступню каждой ноги?
+<input type="text" placeholder="Ответ" name="first" required></p>
+<p>У себя на рукаве пальто вы увидели две снежинки. Одна из снежинок имеет сложную резную форму. Какая из них упала с
+большей, а какая с меньшей высоты? <input type="text" placeholder="Ответ" name="second" required></p>
+<p>Служащему таможни, где производился контроль отправляемых за границу товаров, показались подозрительными пластмассовые
+кегельные шары одной из фирм. Они весили столько же, сколько деревянные того же размера. Шары не были массивными, но
+стенки были повсюду одинаково тверды. Служащий подумал, что внутри каждого шара имеется полость, где можно спрятать
+контрабандные товары. И, действительно, при помощи очень простого опыта без применения особой аппаратуры таможенник
+установил, что в одном из 12 шаров спрятана контрабанда. Когда шар вскрыли, там оказалось брильянтовой украшение. Как
+удалось обнаружить этот шар? <input type="text" placeholder="Ответ" name="three" required></p>
+<p class="center">Если вы готовы узнать ответы нажмите на кнопку ниже данного текста</p>
+<p class="center">
+<button type="submit" class="uk-button uk-button-secondary ">Узнать ответы</button>
+</p>
+
+
+</form><!-- End form for button -->
+</body>
+</html>
